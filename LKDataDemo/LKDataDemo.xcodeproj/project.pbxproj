@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAABDCF01859555F0034E18A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAABDCEF1859555F0034E18A /* UIKit.framework */; };
+		DAABDCF21859555F0034E18A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAABDCF11859555F0034E18A /* Foundation.framework */; };
+		DAABDCF41859555F0034E18A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAABDCF31859555F0034E18A /* CoreGraphics.framework */; };
+		DAABDCFA1859555F0034E18A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAABDCF81859555F0034E18A /* InfoPlist.strings */; };
+		DAABDCFC1859555F0034E18A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAABDCFB1859555F0034E18A /* main.m */; };
+		DAABDD001859555F0034E18A /* LKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAABDCFF1859555F0034E18A /* LKAppDelegate.m */; };
+		DAABDD021859555F0034E18A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DAABDD011859555F0034E18A /* Default.png */; };
+		DAABDD041859555F0034E18A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAABDD031859555F0034E18A /* Default@2x.png */; };
+		DAABDD061859555F0034E18A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAABDD051859555F0034E18A /* Default-568h@2x.png */; };
+		DAABDD091859555F0034E18A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAABDD071859555F0034E18A /* MainStoryboard.storyboard */; };
+		DAABDD0C1859555F0034E18A /* LKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAABDD0B1859555F0034E18A /* LKViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DAABDCEC1859555F0034E18A /* LKDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAABDCEF1859555F0034E18A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DAABDCF11859555F0034E18A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DAABDCF31859555F0034E18A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DAABDCF71859555F0034E18A /* LKDataDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LKDataDemo-Info.plist"; sourceTree = "<group>"; };
+		DAABDCF91859555F0034E18A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAABDCFB1859555F0034E18A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAABDCFD1859555F0034E18A /* LKDataDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LKDataDemo-Prefix.pch"; sourceTree = "<group>"; };
+		DAABDCFE1859555F0034E18A /* LKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKAppDelegate.h; sourceTree = "<group>"; };
+		DAABDCFF1859555F0034E18A /* LKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAppDelegate.m; sourceTree = "<group>"; };
+		DAABDD011859555F0034E18A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DAABDD031859555F0034E18A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DAABDD051859555F0034E18A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DAABDD081859555F0034E18A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DAABDD0A1859555F0034E18A /* LKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKViewController.h; sourceTree = "<group>"; };
+		DAABDD0B1859555F0034E18A /* LKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAABDCE91859555F0034E18A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAABDCF01859555F0034E18A /* UIKit.framework in Frameworks */,
+				DAABDCF21859555F0034E18A /* Foundation.framework in Frameworks */,
+				DAABDCF41859555F0034E18A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAABDCE31859555F0034E18A = {
+			isa = PBXGroup;
+			children = (
+				DAABDCF51859555F0034E18A /* LKDataDemo */,
+				DAABDCEE1859555F0034E18A /* Frameworks */,
+				DAABDCED1859555F0034E18A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAABDCED1859555F0034E18A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAABDCEC1859555F0034E18A /* LKDataDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAABDCEE1859555F0034E18A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAABDCEF1859555F0034E18A /* UIKit.framework */,
+				DAABDCF11859555F0034E18A /* Foundation.framework */,
+				DAABDCF31859555F0034E18A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAABDCF51859555F0034E18A /* LKDataDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DAABDCFE1859555F0034E18A /* LKAppDelegate.h */,
+				DAABDCFF1859555F0034E18A /* LKAppDelegate.m */,
+				DAABDD071859555F0034E18A /* MainStoryboard.storyboard */,
+				DAABDD0A1859555F0034E18A /* LKViewController.h */,
+				DAABDD0B1859555F0034E18A /* LKViewController.m */,
+				DAABDCF61859555F0034E18A /* Supporting Files */,
+			);
+			path = LKDataDemo;
+			sourceTree = "<group>";
+		};
+		DAABDCF61859555F0034E18A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAABDCF71859555F0034E18A /* LKDataDemo-Info.plist */,
+				DAABDCF81859555F0034E18A /* InfoPlist.strings */,
+				DAABDCFB1859555F0034E18A /* main.m */,
+				DAABDCFD1859555F0034E18A /* LKDataDemo-Prefix.pch */,
+				DAABDD011859555F0034E18A /* Default.png */,
+				DAABDD031859555F0034E18A /* Default@2x.png */,
+				DAABDD051859555F0034E18A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAABDCEB1859555F0034E18A /* LKDataDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAABDD0F1859555F0034E18A /* Build configuration list for PBXNativeTarget "LKDataDemo" */;
+			buildPhases = (
+				DAABDCE81859555F0034E18A /* Sources */,
+				DAABDCE91859555F0034E18A /* Frameworks */,
+				DAABDCEA1859555F0034E18A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKDataDemo;
+			productName = LKDataDemo;
+			productReference = DAABDCEC1859555F0034E18A /* LKDataDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAABDCE41859555F0034E18A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = LK;
+			};
+			buildConfigurationList = DAABDCE71859555F0034E18A /* Build configuration list for PBXProject "LKDataDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DAABDCE31859555F0034E18A;
+			productRefGroup = DAABDCED1859555F0034E18A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAABDCEB1859555F0034E18A /* LKDataDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAABDCEA1859555F0034E18A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAABDCFA1859555F0034E18A /* InfoPlist.strings in Resources */,
+				DAABDD021859555F0034E18A /* Default.png in Resources */,
+				DAABDD041859555F0034E18A /* Default@2x.png in Resources */,
+				DAABDD061859555F0034E18A /* Default-568h@2x.png in Resources */,
+				DAABDD091859555F0034E18A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAABDCE81859555F0034E18A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAABDCFC1859555F0034E18A /* main.m in Sources */,
+				DAABDD001859555F0034E18A /* LKAppDelegate.m in Sources */,
+				DAABDD0C1859555F0034E18A /* LKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAABDCF81859555F0034E18A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAABDCF91859555F0034E18A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DAABDD071859555F0034E18A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAABDD081859555F0034E18A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAABDD0D1859555F0034E18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAABDD0E1859555F0034E18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAABDD101859555F0034E18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKDataDemo/LKDataDemo-Prefix.pch";
+				INFOPLIST_FILE = "LKDataDemo/LKDataDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DAABDD111859555F0034E18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKDataDemo/LKDataDemo-Prefix.pch";
+				INFOPLIST_FILE = "LKDataDemo/LKDataDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAABDCE71859555F0034E18A /* Build configuration list for PBXProject "LKDataDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAABDD0D1859555F0034E18A /* Debug */,
+				DAABDD0E1859555F0034E18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAABDD0F1859555F0034E18A /* Build configuration list for PBXNativeTarget "LKDataDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAABDD101859555F0034E18A /* Debug */,
+				DAABDD111859555F0034E18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAABDCE41859555F0034E18A /* Project object */;
+}
