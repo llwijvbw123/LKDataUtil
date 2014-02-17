@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <LKHttpQueue.h>
 
 @interface LKAppDelegate : UIResponder <UIApplicationDelegate>
 

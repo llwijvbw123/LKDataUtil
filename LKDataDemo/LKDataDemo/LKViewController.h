@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface LKViewController : UIViewController
+-(IBAction) testQueue:(id)sender;
 
 @end
